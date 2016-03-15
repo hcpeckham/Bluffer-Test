@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC109B411C7C17FA00606C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC109B401C7C17FA00606C4B /* AppDelegate.swift */; };
+		CC109B431C7C17FA00606C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC109B421C7C17FA00606C4B /* ViewController.swift */; };
+		CC109B481C7C17FA00606C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC109B471C7C17FA00606C4B /* Assets.xcassets */; };
+		CC109B4B1C7C17FA00606C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC109B491C7C17FA00606C4B /* LaunchScreen.storyboard */; };
+		CC2CFE6B1C8E8C3D003A6498 /* Dosis-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE641C8E8C3D003A6498 /* Dosis-Bold.ttf */; };
+		CC2CFE6C1C8E8C3D003A6498 /* Dosis-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE651C8E8C3D003A6498 /* Dosis-ExtraBold.ttf */; };
+		CC2CFE6D1C8E8C3D003A6498 /* Dosis-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE661C8E8C3D003A6498 /* Dosis-ExtraLight.ttf */; };
+		CC2CFE6E1C8E8C3D003A6498 /* Dosis-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE671C8E8C3D003A6498 /* Dosis-Light.ttf */; };
+		CC2CFE6F1C8E8C3D003A6498 /* Dosis-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE681C8E8C3D003A6498 /* Dosis-Medium.ttf */; };
+		CC2CFE701C8E8C3D003A6498 /* Dosis-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE691C8E8C3D003A6498 /* Dosis-Regular.ttf */; };
+		CC2CFE711C8E8C3D003A6498 /* Dosis-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFE6A1C8E8C3D003A6498 /* Dosis-SemiBold.ttf */; };
+		CD827DA11C7FD4CE005F881D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD827DA01C7FD4CE005F881D /* Main.storyboard */; };
+		CD827DA31C7FDB17005F881D /* ReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD827DA21C7FDB17005F881D /* ReadyViewController.swift */; };
+		CD827DA51C7FE43F005F881D /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD827DA41C7FE43F005F881D /* GuessViewController.swift */; };
+		CD827DA71C7FE44B005F881D /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD827DA61C7FE44B005F881D /* ScoreViewController.swift */; };
+		CD827DA91C7FE45F005F881D /* VictoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD827DA81C7FE45F005F881D /* VictoryViewController.swift */; };
+		CDB374091C88D209003300A5 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB374081C88D209003300A5 /* ImagesViewController.swift */; };
+		CDB3740B1C88E4D7003300A5 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3740A1C88E4D7003300A5 /* SpaceViewController.swift */; };
+		CDB3740D1C88E5A0003300A5 /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3740C1C88E5A0003300A5 /* AnimalsViewController.swift */; };
+		CDB3740F1C88E88D003300A5 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB3740E1C88E88D003300A5 /* RandomViewController.swift */; };
+		CDDF49591C84D600002B49AF /* GameVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF49581C84D600002B49AF /* GameVariables.swift */; };
+		CDFC6EF31C7FB98000CF2C9F /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC6EF21C7FB98000CF2C9F /* TutorialViewController.swift */; };
+		CDFC6EF51C7FC92C00CF2C9F /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC6EF41C7FC92C00CF2C9F /* CategoryViewController.swift */; };
+		CDFC6EF71C7FC94500CF2C9F /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC6EF61C7FC94500CF2C9F /* StartViewController.swift */; };
+		CDFC6EFA1C7FCB9700CF2C9F /* PoliticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC6EF91C7FCB9700CF2C9F /* PoliticsViewController.swift */; };
+		CDFC6EFC1C7FCBBF00CF2C9F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC6EFB1C7FCBBF00CF2C9F /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC109B3D1C7C17FA00606C4B /* Bluffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bluffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC109B401C7C17FA00606C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC109B421C7C17FA00606C4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC109B471C7C17FA00606C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC109B4A1C7C17FA00606C4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC109B4C1C7C17FA00606C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2CFE641C8E8C3D003A6498 /* Dosis-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.ttf"; sourceTree = "<group>"; };
+		CC2CFE651C8E8C3D003A6498 /* Dosis-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CC2CFE661C8E8C3D003A6498 /* Dosis-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CC2CFE671C8E8C3D003A6498 /* Dosis-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Light.ttf"; sourceTree = "<group>"; };
+		CC2CFE681C8E8C3D003A6498 /* Dosis-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Medium.ttf"; sourceTree = "<group>"; };
+		CC2CFE691C8E8C3D003A6498 /* Dosis-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Regular.ttf"; sourceTree = "<group>"; };
+		CC2CFE6A1C8E8C3D003A6498 /* Dosis-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-SemiBold.ttf"; sourceTree = "<group>"; };
+		CD827DA01C7FD4CE005F881D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD827DA21C7FDB17005F881D /* ReadyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyViewController.swift; sourceTree = "<group>"; };
+		CD827DA41C7FE43F005F881D /* GuessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		CD827DA61C7FE44B005F881D /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		CD827DA81C7FE45F005F881D /* VictoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryViewController.swift; sourceTree = "<group>"; };
+		CDB374081C88D209003300A5 /* ImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		CDB3740A1C88E4D7003300A5 /* SpaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
+		CDB3740C1C88E5A0003300A5 /* AnimalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
+		CDB3740E1C88E88D003300A5 /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		CDDF49581C84D600002B49AF /* GameVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVariables.swift; sourceTree = "<group>"; };
+		CDFC6EF21C7FB98000CF2C9F /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		CDFC6EF41C7FC92C00CF2C9F /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		CDFC6EF61C7FC94500CF2C9F /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CDFC6EF91C7FCB9700CF2C9F /* PoliticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoliticsViewController.swift; sourceTree = "<group>"; };
+		CDFC6EFB1C7FCBBF00CF2C9F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC109B3A1C7C17FA00606C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC109B341C7C17FA00606C4B = {
+			isa = PBXGroup;
+			children = (
+				CC109B3F1C7C17FA00606C4B /* Bluffer */,
+				CC109B3E1C7C17FA00606C4B /* Products */,
+				CC2CFE641C8E8C3D003A6498 /* Dosis-Bold.ttf */,
+				CC2CFE651C8E8C3D003A6498 /* Dosis-ExtraBold.ttf */,
+				CC2CFE661C8E8C3D003A6498 /* Dosis-ExtraLight.ttf */,
+				CC2CFE671C8E8C3D003A6498 /* Dosis-Light.ttf */,
+				CC2CFE681C8E8C3D003A6498 /* Dosis-Medium.ttf */,
+				CC2CFE691C8E8C3D003A6498 /* Dosis-Regular.ttf */,
+				CC2CFE6A1C8E8C3D003A6498 /* Dosis-SemiBold.ttf */,
+			);
+			sourceTree = "<group>";
+		};
+		CC109B3E1C7C17FA00606C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC109B3D1C7C17FA00606C4B /* Bluffer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC109B3F1C7C17FA00606C4B /* Bluffer */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC6EF11C7FB96D00CF2C9F /* View Controllers */,
+				CC109B401C7C17FA00606C4B /* AppDelegate.swift */,
+				CC109B421C7C17FA00606C4B /* ViewController.swift */,
+				CD827DA01C7FD4CE005F881D /* Main.storyboard */,
+				CC109B471C7C17FA00606C4B /* Assets.xcassets */,
+				CC109B491C7C17FA00606C4B /* LaunchScreen.storyboard */,
+				CC109B4C1C7C17FA00606C4B /* Info.plist */,
+				CDDF49581C84D600002B49AF /* GameVariables.swift */,
+			);
+			path = Bluffer;
+			sourceTree = "<group>";
+		};
+		CDFC6EF11C7FB96D00CF2C9F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC6EF21C7FB98000CF2C9F /* TutorialViewController.swift */,
+				CDFC6EF41C7FC92C00CF2C9F /* CategoryViewController.swift */,
+				CDFC6EF61C7FC94500CF2C9F /* StartViewController.swift */,
+				CDFC6EF91C7FCB9700CF2C9F /* PoliticsViewController.swift */,
+				CDFC6EFB1C7FCBBF00CF2C9F /* GameViewController.swift */,
+				CD827DA21C7FDB17005F881D /* ReadyViewController.swift */,
+				CD827DA41C7FE43F005F881D /* GuessViewController.swift */,
+				CD827DA61C7FE44B005F881D /* ScoreViewController.swift */,
+				CD827DA81C7FE45F005F881D /* VictoryViewController.swift */,
+				CDB374081C88D209003300A5 /* ImagesViewController.swift */,
+				CDB3740A1C88E4D7003300A5 /* SpaceViewController.swift */,
+				CDB3740C1C88E5A0003300A5 /* AnimalsViewController.swift */,
+				CDB3740E1C88E88D003300A5 /* RandomViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC109B3C1C7C17FA00606C4B /* Bluffer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC109B4F1C7C17FA00606C4B /* Build configuration list for PBXNativeTarget "Bluffer" */;
+			buildPhases = (
+				CC109B391C7C17FA00606C4B /* Sources */,
+				CC109B3A1C7C17FA00606C4B /* Frameworks */,
+				CC109B3B1C7C17FA00606C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluffer;
+			productName = Bluffer;
+			productReference = CC109B3D1C7C17FA00606C4B /* Bluffer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC109B351C7C17FA00606C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Blake Hudelson";
+				TargetAttributes = {
+					CC109B3C1C7C17FA00606C4B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AY66978GEJ;
+					};
+				};
+			};
+			buildConfigurationList = CC109B381C7C17FA00606C4B /* Build configuration list for PBXProject "Bluffer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC109B341C7C17FA00606C4B;
+			productRefGroup = CC109B3E1C7C17FA00606C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC109B3C1C7C17FA00606C4B /* Bluffer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC109B3B1C7C17FA00606C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD827DA11C7FD4CE005F881D /* Main.storyboard in Resources */,
+				CC109B4B1C7C17FA00606C4B /* LaunchScreen.storyboard in Resources */,
+				CC2CFE6B1C8E8C3D003A6498 /* Dosis-Bold.ttf in Resources */,
+				CC2CFE6E1C8E8C3D003A6498 /* Dosis-Light.ttf in Resources */,
+				CC2CFE701C8E8C3D003A6498 /* Dosis-Regular.ttf in Resources */,
+				CC2CFE6F1C8E8C3D003A6498 /* Dosis-Medium.ttf in Resources */,
+				CC2CFE6C1C8E8C3D003A6498 /* Dosis-ExtraBold.ttf in Resources */,
+				CC109B481C7C17FA00606C4B /* Assets.xcassets in Resources */,
+				CC2CFE711C8E8C3D003A6498 /* Dosis-SemiBold.ttf in Resources */,
+				CC2CFE6D1C8E8C3D003A6498 /* Dosis-ExtraLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC109B391C7C17FA00606C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD827DA31C7FDB17005F881D /* ReadyViewController.swift in Sources */,
+				CDDF49591C84D600002B49AF /* GameVariables.swift in Sources */,
+				CDFC6EFC1C7FCBBF00CF2C9F /* GameViewController.swift in Sources */,
+				CDFC6EF71C7FC94500CF2C9F /* StartViewController.swift in Sources */,
+				CDFC6EFA1C7FCB9700CF2C9F /* PoliticsViewController.swift in Sources */,
+				CDB3740F1C88E88D003300A5 /* RandomViewController.swift in Sources */,
+				CDB3740D1C88E5A0003300A5 /* AnimalsViewController.swift in Sources */,
+				CDFC6EF51C7FC92C00CF2C9F /* CategoryViewController.swift in Sources */,
+				CC109B431C7C17FA00606C4B /* ViewController.swift in Sources */,
+				CDB3740B1C88E4D7003300A5 /* SpaceViewController.swift in Sources */,
+				CD827DA91C7FE45F005F881D /* VictoryViewController.swift in Sources */,
+				CD827DA51C7FE43F005F881D /* GuessViewController.swift in Sources */,
+				CDB374091C88D209003300A5 /* ImagesViewController.swift in Sources */,
+				CD827DA71C7FE44B005F881D /* ScoreViewController.swift in Sources */,
+				CDFC6EF31C7FB98000CF2C9F /* TutorialViewController.swift in Sources */,
+				CC109B411C7C17FA00606C4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC109B491C7C17FA00606C4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC109B4A1C7C17FA00606C4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC109B4D1C7C17FA00606C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC109B4E1C7C17FA00606C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC109B501C7C17FA00606C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakehudelson.Bluffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC109B511C7C17FA00606C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bluffer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blakehudelson.Bluffer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC109B381C7C17FA00606C4B /* Build configuration list for PBXProject "Bluffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC109B4D1C7C17FA00606C4B /* Debug */,
+				CC109B4E1C7C17FA00606C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC109B4F1C7C17FA00606C4B /* Build configuration list for PBXNativeTarget "Bluffer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC109B501C7C17FA00606C4B /* Debug */,
+				CC109B511C7C17FA00606C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC109B351C7C17FA00606C4B /* Project object */;
+}
