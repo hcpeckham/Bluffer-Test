@@ -9,6 +9,12 @@ UIView.transitionWithView(readyViewController.view, duration: 1.0, options: .Tra
             }) { (finished) -> Void in
                 self.readyViewController.presentViewController(self.currentCategoryViewController, animated: false, completion: nil)
         }
+        
+        
+        
+        
+        All of this is in the game view controller.
+        
        
        
        
