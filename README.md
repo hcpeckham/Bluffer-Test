@@ -1,7 +1,7 @@
 # Bluffer-Test
 
 
-Tim, we are having trouble getting our card flip to work. This is the specific block of code
+            Tim, we are having trouble getting our card flip to work. This is the specific block of code
 
 
 UIView.transitionWithView(readyViewController.view, duration: 1.0, options: .TransitionFlipFromRight, animations: { () -> Void in
